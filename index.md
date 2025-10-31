@@ -17,7 +17,7 @@ nav_exclude: true
   <img class="avatar" src="/assets/avatar.jpg" alt="David Ganem portrait">
   <div class="hero-text">
     <h1>David Ganem, PharmD</h1>
-    <p class="subtitle">Medicinal Chemistry · Neuroscience · Optogenetics</p>
+    <p class="subtitle">Medicinal Chemistry · Neuroscience</p>
     <p>
       <a class="btn" href="mailto:ganem.david@gmail.com">Email me</a>
       <a class="btn secondary" href="https://www.linkedin.com/in/david-ganem-535769171/" target="_blank" rel="noopener">LinkedIn</a>
