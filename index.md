@@ -30,20 +30,24 @@ nav_exclude: true
 <section id="about">
   <h2>About</h2>
   <p>
-    I’m a medicinal chemistry graduate with hands-on neuroscience experience in optogenetics,
-    fiber photometry, and stereotaxic surgery. I care about rigorous experimentation and clear,
-    reproducible analysis.
+    I am a PharmD and neuroscience researcher with a background in Medicinal Chemistry from Sapienza University of Rome.  
+    During my Master’s thesis, I conducted <em>in vivo</em> optogenetic and fiber photometry experiments aimed at investigating post-traumatic stress disorder (PTSD) in the laboratory of 
+    <a href="https://patriziacampolongo.com/lab-members/" target="_blank" rel="noopener"><strong>Prof. Patrizia Campolongo</strong></a>.  
+    Currently, I am pursuing a PhD in <strong>Computational Neuroscience</strong> at the <strong>Weizmann Institute of Science</strong>, within 
+    <a href="https://www.weizmann.ac.il/brain-sciences/labs/lampl/home" target="_blank" rel="noopener"><strong>Ilan Lampl’s Laboratory</strong></a>.  
+    My doctoral research focuses on the role of serotonergic neuromodulation in the cerebral cortex during learning processes guided by decision making and perception.
   </p>
 
   <div class="tags-wrap">
+    <span class="tag">Computational Neuroscience</span>
     <span class="tag">Optogenetics</span>
     <span class="tag">Fiber Photometry</span>
-    <span class="tag">Drug Design</span>
-    <span class="tag">3D QSAR</span>
-    <span class="tag">Molecular Docking</span>
-    <span class="tag">ImageJ · DeepLabCut</span>
+    <span class="tag">PTSD Research</span>
+    <span class="tag">Serotonergic Modulation</span>
+    <span class="tag">Decision-Making & Perception</span>
   </div>
 </section>
+
 
 <!-- ===== My CV (Achievements) ===== -->
 <section id="cv">
