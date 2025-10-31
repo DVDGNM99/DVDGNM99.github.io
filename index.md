@@ -81,41 +81,6 @@ nav_exclude: true
   </ul>
 </section>
 
-
-  <p><strong>Certificates (2023)</strong> — IZSLER, Rome</p>
-  <ul>
-    <li>Biology and Laboratory Animal Management</li>
-    <li>National Legislation and Ethics, Level 1, Modules 1 &amp; 2</li>
-  </ul>
-
-  <h4>🌍 Languages</h4>
-  <ul>
-    <li><strong>Italian</strong> — Native</li>
-    <li><strong>English</strong> — C2 Listening / C1 Reading / C1 Writing / C2 Speaking</li>
-    <li><strong>Hebrew</strong> — B2 Speaking / B1 Reading &amp; Writing</li>
-  </ul>
-</section>
-
-<!-- ===== Projects ===== -->
-<section id="projects">
-  <h2>Projects</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>NeuroTools</h3>
-      <p>Utilities for ISI histograms, cross-correlograms, and PSTH.</p>
-      <a class="link" href="https://github.com/DVDGNM99" target="_blank" rel="noopener">View on GitHub →</a>
-    </div>
-    <div class="card">
-      <h3>PBRM1 Inhibitors</h3>
-      <p>NMR fragment screening workflow with 3D QSAR and docking.</p>
-    </div>
-    <div class="card">
-      <h3>Shape-Morphing Microrobots</h3>
-      <p>Concept for localized cancer treatment; materials &amp; delivery notes.</p>
-    </div>
-  </div>
-</section>
-
 <!-- ===== Contact ===== -->
 <section id="contact">
   <h2>Contact</h2>
