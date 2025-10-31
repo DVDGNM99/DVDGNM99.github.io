@@ -55,3 +55,16 @@ section { margin: 2.2rem 0; scroll-margin-top: 72px; }
   .avatar { width: 100px; height: 100px; }
   .grid { grid-template-columns: 1fr; }
 }
+/* === Hide default minima header and footer === */
+.site-header { 
+  display: none !important; 
+}
+.site-footer {
+  border: none;
+  background: none;
+  text-align: center;
+  color: var(--muted);
+  font-size: .85rem;
+}
+
+
