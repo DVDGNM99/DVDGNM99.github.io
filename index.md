@@ -1,6 +1,7 @@
 ---
 layout: default
 title: David Ganem — Portfolio
+nav_exclude: true
 ---
 
 <!-- ===== Sticky Nav (one-page) ===== -->
