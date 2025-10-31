@@ -8,7 +8,6 @@ nav_exclude: true
 <nav class="topnav">
   <a href="#about">About</a>
   <a href="#cv">My CV</a>
-  <a href="#projects">Projects</a>
   <a href="#contact">Contact</a>
 </nav>
 
