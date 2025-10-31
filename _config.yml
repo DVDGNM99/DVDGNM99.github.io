@@ -1,11 +1,11 @@
-title: "Hello!, i'm David"
-description: "Portfolio"
-url: "https://DVDGNM99.github.io"
+title: "David Ganem — Portfolio"
+description: "Medicinal Chemistry & Neuroscience"
+url: "https://dvdgnm99.github.io"
 baseurl: ""
 
 theme: minima
 minima:
-  skin: classic      # o 'dark' se vuoi base scura
+  skin: classic
   social_links:
     - { platform: github,   user_url: "https://github.com/DVDGNM99" }
     - { platform: linkedin, user_url: "https://www.linkedin.com/in/david-ganem-535769171/" }
@@ -17,3 +17,7 @@ plugins:
 author:
   name: "David Ganem"
   email: "ganem.david@gmail.com"
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
