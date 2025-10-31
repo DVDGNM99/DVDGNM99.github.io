@@ -1,3 +1,32 @@
-theme: jekyll-theme-cayman
-title: "Welcome, I'm David"
-show downloads: false
+title: "Hello!, i'm David"
+description: "Portfolio"
+url: "https://DVDGNM99.github.io"   
+baseurl: ""                       
+
+theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Author information
+author:
+  name: "David Ganem"
+  email: "ganem.david@gmail.com"
+  istitutional email: david.ganem@weizmann.ac.il
+
+# Social links (appear in footer and SEO metadata)
+minima:
+  social_links:
+    - { platform: github, user_url: "https://github.com/DVDGNM99" }
+    - { platform: linkedin, user_url: "www.linkedin.com/in/david-ganem-535769171" }
+    - { platform: Instagram, user_url: "https://instagram.com/david_ganem99" }
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Optional: Google Analytics (delete if unused)
+google_analytics: ""
+
+# Default permalink style
+permalink: pretty
