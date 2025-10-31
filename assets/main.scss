@@ -15,19 +15,42 @@
   --shadow: 0 10px 20px rgba(2,6,23,.08);
 }
 
+/* Base */
+html { scroll-behavior: smooth; }
 body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif; color: var(--ink); }
 
-/* Sticky top nav */
-.topnav {
-  position: sticky; top: 0; z-index: 10;
-  display: flex; gap: 1rem; padding: .75rem 0; background: var(--bg);
-  border-bottom: 1px solid #eaeaea;
+/* ===== Sticky top nav con trasparenza e blur ===== */
+.topnav{
+  position: sticky; top: 0; z-index: 30;
+  display: flex; gap: 1.1rem; align-items: center;
+  padding: .75rem .25rem;
+  background: rgba(255,255,255,.75);
+  backdrop-filter: saturate(140%) blur(10px);
+  -webkit-backdrop-filter: saturate(140%) blur(10px);
+  border-bottom: 1px solid rgba(0,0,0,.06);
+  transition: background .25s ease, box-shadow .25s ease, border-color .25s ease;
 }
-.topnav a { text-decoration: none; color: var(--ink); opacity: .8; font-weight: 600; }
-.topnav a:hover { opacity: 1; color: var(--accent); }
+.topnav.scrolled{
+  background: rgba(255,255,255,.9);
+  box-shadow: 0 6px 20px rgba(2,6,23,.08);
+  border-color: transparent;
+}
+.topnav a{
+  text-decoration: none;
+  color: var(--ink);
+  opacity: .8; font-weight: 600;
+  padding: .25rem .1rem;
+  transition: color .2s ease, opacity .2s ease, border-color .2s ease;
+  border-bottom: 2px solid transparent;
+}
+.topnav a:hover{ opacity: 1; color: var(--accent); }
+.topnav a.active{
+  opacity: 1; color: var(--accent);
+  border-color: var(--accent);
+}
 
-/* Hero */
-.hero { display: grid; grid-template-columns: 120px 1fr; gap: 1rem; align-items: center; margin: 1.5rem 0 2rem; }
+/* ===== Hero ===== */
+.hero { display: grid; grid-template-columns: 120px 1fr; gap: 1rem; align-items: center; margin: 1rem 0 2rem; }
 .avatar { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent); }
 .subtitle { color: var(--muted); margin-top: -.3rem; }
 .btn {
@@ -37,11 +60,12 @@ body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-se
 .btn.secondary { background: #eef2ff; color: #1e3a8a; box-shadow: none; }
 .btn + .btn { margin-left: .5rem; }
 
-/* Sections */
+/* ===== Sezioni ===== */
 section { margin: 2.2rem 0; scroll-margin-top: 72px; }
 .tags-wrap { display:flex; flex-wrap:wrap; gap:.5rem; margin-top:.6rem; }
 .tag { background: var(--tag-bg); color: var(--tag-text); padding:.25rem .6rem; border-radius:999px; font-size:.85rem; font-weight:600; }
 
+/* ===== Card & griglia ===== */
 .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
 .card { background: var(--card); border: 1px solid #eaeaea; border-radius: 16px; padding: 1rem; box-shadow: var(--shadow); }
 .card h3 { margin-top: .3rem; }
@@ -49,22 +73,16 @@ section { margin: 2.2rem 0; scroll-margin-top: 72px; }
 
 .footer-note { color: var(--muted); font-size: .9rem; }
 
-/* Mobile */
+/* ===== Mobile ===== */
 @media (max-width: 700px) {
   .hero { grid-template-columns: 1fr; }
   .avatar { width: 100px; height: 100px; }
   .grid { grid-template-columns: 1fr; }
 }
-/* === Hide default minima header and footer === */
-.site-header { 
+
+/* ===== Nascondi header/footer del tema minima ===== */
+.site-header, .site-footer { 
   display: none !important; 
 }
-.site-footer {
-  border: none;
-  background: none;
-  text-align: center;
-  color: var(--muted);
-  font-size: .85rem;
-}
 
-
+/* v3 */
