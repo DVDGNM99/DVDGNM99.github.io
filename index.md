@@ -49,37 +49,38 @@ nav_exclude: true
 </section>
 
 
-<!-- ===== My CV (Achievements) ===== -->
+<!-- ===== My CV (Curriculum Vitae) ===== -->
 <section id="cv">
-  <h2>My CV</h2>
+  <h2>My CV <span style="font-weight:400;">(Curriculum Vitae)</span></h2>
 
-  <h3>My Achievements</h3>
+  <h4>🎓 Education</h4>
+  <p>
+    <strong>MSc Pharmaceutical Chemistry and Technology</strong>, 
+    <em>Sapienza University of Rome (2018–2025)</em><br>
+    Focus: <strong>Drug Design, Pharmacology, Medicinal Chemistry</strong>.
+  </p>
 
   <h4>🧠 Research & Laboratory Work</h4>
-  <p><strong>Fondazione Santa Lucia (CERC), Rome (2024–2025)</strong> — <em>Pharmacological Preclinical Research</em></p>
-  <ul>
-    <li>In vivo animal studies implementing innovative methodologies for neuroscience research.</li>
-    <li>Applied <strong>optogenetics</strong> and <strong>fiber photometry</strong> to manipulate and record neural activity.</li>
-    <li>Performed <strong>stereotaxic neurosurgeries</strong> for fiber-optic implantations in rat brains.</li>
-    <li>Advanced <strong>immunostaining</strong> protocols; biochemical analysis with biostatistics.</li>
-    <li>Tools: <strong>DeepLabCut</strong>, <strong>ImageJ</strong>, <strong>Synapse TDT</strong>, Smart Panlab, AviSoft.</li>
-  </ul>
+  <p>
+    <strong>Fondazione Santa Lucia (CERC), Rome (2024–2025)</strong> — <em>Pharmacological Preclinical Research</em><br>
+    Experimental work on <strong>post-traumatic stress disorder (PTSD)</strong> in rats using in vivo approaches within the laboratory of 
+    <a href="https://patriziacampolongo.com/lab-members/" target="_blank" rel="noopener"><strong>Prof. Patrizia Campolongo</strong></a>.
+  </p>
 
-  <h4>💊 Pharmaceutical Experience</h4>
-  <p><strong>Farmacia Mazzini, Rome (2023–2024)</strong> — <em>Pharmacist</em></p>
-  <ul>
-    <li>Prescription filling and galenic compounding under Italian sanitary law (<em>TULS</em>).</li>
-    <li>Customized formulations and patient counselling; inventory and compliance.</li>
-  </ul>
+  <h4>💊 Internship</h4>
+  <p>
+    <strong>Farmacia Mazzini, Rome (2023–2024)</strong> — <em>Pharmacist</em><br>
+    Prescription filling and galenic compounding under Italian sanitary law (<em>TULS</em>).  
+    Customized formulations and patient counselling; inventory and compliance.
+  </p>
 
-  <h4>🎓 Academic & Scientific Training</h4>
-  <p><strong>MSc Pharmaceutical Chemistry and Technology</strong>, <em>Sapienza University of Rome (2018–2025)</em></p>
+  <h4>🔬 Academic Projects</h4>
   <ul>
-    <li>Focus: <strong>Drug Design, Pharmacology, Medicinal Chemistry</strong>.</li>
-    <li>Thesis: <em>Selective and Cell Active PBRM1 Bromodomain Inhibitors Discovered through NMR Fragment Screening</em>.</li>
-    <li>Additional thesis: <em>Environmentally Adaptive Shape-Morphing Microrobots for Localized Cancer Treatment</em>.</li>
-    <li>Methods: <strong>3D QSAR</strong>, <strong>Molecular Docking</strong>, drug discovery pipelines.</li>
+    <li><strong>Environmentally Adaptive Shape-Morphing Microrobots</strong> for Localized Cancer Treatment.</li>
+    <li><strong>Selective and Cell-Active PBRM1 Bromodomain Inhibitors</strong> discovered through computational chemistry (3D QSAR, Molecular Docking, Drug Discovery pipelines).</li>
   </ul>
+</section>
+
 
   <p><strong>Certificates (2023)</strong> — IZSLER, Rome</p>
   <ul>
