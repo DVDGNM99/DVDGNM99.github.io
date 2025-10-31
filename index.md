@@ -16,7 +16,7 @@ nav_exclude: true
 <section class="hero" id="home">
   <img class="avatar" src="/assets/avatar.jpg" alt="David Ganem portrait">
   <div class="hero-text">
-    <h1>David Ganem</h1>
+    <h1>David Ganem, PharmD</h1>
     <p class="subtitle">Medicinal Chemistry · Neuroscience · Optogenetics</p>
     <p>
       <a class="btn" href="mailto:ganem.david@gmail.com">Email me</a>
@@ -30,7 +30,7 @@ nav_exclude: true
 <section id="about">
   <h2>About</h2>
   <p>
-    I’m a medicinal chemistry student with hands-on neuroscience experience in optogenetics,
+    I’m a medicinal chemistry graduate with hands-on neuroscience experience in optogenetics,
     fiber photometry, and stereotaxic surgery. I care about rigorous experimentation and clear,
     reproducible analysis.
   </p>
@@ -91,7 +91,7 @@ nav_exclude: true
   </ul>
 </section>
 
-<!-- ===== Projects (facoltativo, modifica con i tuoi) ===== -->
+<!-- ===== Projects ===== -->
 <section id="projects">
   <h2>Projects</h2>
   <div class="grid">
@@ -106,7 +106,7 @@ nav_exclude: true
     </div>
     <div class="card">
       <h3>Shape-Morphing Microrobots</h3>
-      <p>Concept for localized cancer treatment; materials & delivery notes.</p>
+      <p>Concept for localized cancer treatment; materials &amp; delivery notes.</p>
     </div>
   </div>
 </section>
